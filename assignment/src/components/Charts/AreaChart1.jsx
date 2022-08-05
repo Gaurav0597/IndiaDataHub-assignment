@@ -44,8 +44,8 @@ var obj = [
   { label: 2014, value: 2000 },
   { label: 2016, value: 4000 },
   { label: 2018, value: 6000 },
-  { label: 2020, value: 8500 },
-  { label: 2022, value: 10000 },
+  { label: 2020, value: 9500 },
+  { label: 2022, value: 11000 },
 ]
 // const value = ['2000', '4000', '6000', '8000', '10000']
 export const data = {

@@ -21,6 +21,7 @@ ChartJS.register(
 );
 
 export const options = {
+  aspectRatio: 1.7, 
   indexAxis: 'y',
   elements: {
     bar: {

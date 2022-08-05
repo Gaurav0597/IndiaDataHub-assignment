@@ -1,4 +1,6 @@
 
+import { BelowMain } from "./components/belowMain";
+import { BelowNav } from "./components/BelowNav";
 import { AreaChart1 } from "./components/Charts/AreaChart1";
 import { AreaChart2 } from "./components/Charts/AreaChart2";
 
@@ -9,7 +11,9 @@ function App() {
 
   return (
     <div >
+      <BelowNav/>
     <MainPage/>
+    <BelowMain/>
      {/* <AreaChart1/> */}
      {/* <AreaChart2/> */}
     </div>

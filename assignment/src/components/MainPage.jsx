@@ -7,7 +7,7 @@ import { StackChart } from './Charts/StackChart'
 
 const MainPage = () => {
   return (
-    <div className="w-11/12 m-auto">
+    <div className="w-11/12 m-auto bg-slate-50" style={{marginTop:"-4px"}} >
       <div className="w-full flex p-10">
         <div className="w-2/5">
           <div className="text-5xl font-medium mb-2">Last Hope K9</div>

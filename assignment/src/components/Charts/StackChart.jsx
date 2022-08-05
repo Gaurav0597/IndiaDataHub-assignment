@@ -23,10 +23,10 @@ ChartJS.register(
 export const options = {
   indexAxis: 'y',
   plugins: {
-    title: {
-      display: false,
-      text: 'Chart.js Bar Chart - Stacked',
-    },
+    // title: {
+    //   display: false,
+    //   text: 'Chart.js Bar Chart - Stacked',
+    // },
     legend: {
       position: 'bottom' ,
     },
