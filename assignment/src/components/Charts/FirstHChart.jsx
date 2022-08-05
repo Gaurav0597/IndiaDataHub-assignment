@@ -9,6 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+import e from 'cors';
 // import faker from 'faker';
 
 ChartJS.register(
@@ -40,15 +41,21 @@ export const options = {
 };
 
 const labels = ['0-1 Puppy', '2-6 Adult', '7+ Senior'];
+var obj = [
+  { label: "0-1 Puppy", value: 30 ,days:"30 days"},
+  { label: "2-6 Adult", value: 85 },
+  { label: '7+ Senior', value: 103 },
+]
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 2',
-      data:labels.map(()=>Math.random() * 200),
+      data: obj.map((e, index) => `${e.value}`),
       borderColor: 'rgb(151,226,231)',
       backgroundColor: 'rgb(151,226,231)',
+      showDatapoints: true,
+    
     },
   ],
 };

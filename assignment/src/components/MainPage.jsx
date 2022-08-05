@@ -1,5 +1,6 @@
 import React from 'react'
 import { AreaChart1 } from './Charts/AreaChart1'
+import { AreaChart2 } from './Charts/AreaChart2'
 import { FirstHChart } from './Charts/FirstHChart'
 import { SecondHChart } from './Charts/SecondHChart'
 import { StackChart } from './Charts/StackChart'
@@ -56,7 +57,7 @@ const MainPage = () => {
         </div>
       </div>
       <div className="flex w-full  ml-8">
-        <div className="w-1/3   border-r-2 border-zinc-300 ">
+        <div className="w-3/5   border-r-2 border-zinc-300 ">
           <div className="text-4xl font-medium text-slate-600 text-center mb-2">
             Lives Saved
           </div>
@@ -76,26 +77,48 @@ const MainPage = () => {
                 <div className="text-xl font-medium text-slate-600 ml-12 mb-2">
                   Avg Time To Adopt by Age Bucket
                 </div>
-                <div  className="w-60 ml-12">
+                <div className="w-60 ml-12">
                   <FirstHChart />
                 </div>
+                <p className="ml-16 font-medium">
+                  Note:Starts at Date of Transport
+                </p>
               </div>
             </div>
-            <div className="w-1/2">garuav</div>
+            <div className="w-1/2 ml-6">
+              <div className="text-3xl font-medium text-slate-600 text-center mb-2">
+                Characteristics
+              </div>
+              <div className="text-xl font-medium text-slate-600 ml-12 mb-2 mt-6">
+                Proportion of Dogs that.....
+              </div>
+              <div className="w-96 h-auto">
+                <StackChart />
+              </div>
+            </div>
           </div>
           <div className="flex">
-            <div>guarav</div>
-            <div>gaurav</div>
+            <div className="w-1/2 mt-10">
+              <div className="text-xl font-medium text-slate-600 ml-12 mb-2">
+                Avg Time To Adopt over Time
+              </div>
+              <div className="w-4/5 h-auto ml-12">
+                <AreaChart2 />
+              </div>
+            </div>
+            <div className="w-1/2 mt-10">
+              <div className="text-xl font-medium text-slate-600 ml-12 mb-2">
+                Avg Time To Adopt over Time
+              </div>
+              <div className="w-4/5 h-auto ml-12">
+              <SecondHChart />
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="w-1/3 h-auto">
-        <SecondHChart />
-      </div>
-      <div className="w-96 h-auto">
-        <StackChart />
-      </div>
+     
     </div>
   )
 }

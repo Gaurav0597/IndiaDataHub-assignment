@@ -54,7 +54,7 @@ export const data = {
     },
     {
       label: 'Does Not/Are Not',
-      data: labels.map(() => faker.datatype.number({ min: 0, max: 500 })),
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
       backgroundColor: 'rgb(92,96,104)',
     },
     {
