@@ -47,8 +47,8 @@ export const data = {
     {
       label: 'Dataset 2',
       data:labels.map(()=>Math.random() * 200),
-      borderColor: 'rgb(53, 162, 235)',
-      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+      borderColor: 'rgb(151,226,231)',
+      backgroundColor: 'rgb(151,226,231)',
     },
   ],
 };

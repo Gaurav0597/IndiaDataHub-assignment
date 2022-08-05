@@ -45,10 +45,10 @@ export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 2',
+      label: 'Top 10 Bread',
       data:labels.map(()=>Math.random() * 1500),
-      borderColor: 'rgb(53, 162, 235)',
-      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+      borderColor: 'rgb(151,226,231)',
+      backgroundColor: 'rgb(151,226,231)',
     },
   ],
 };
