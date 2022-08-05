@@ -25,7 +25,7 @@ ChartJS.register(
 )
 
 export const options = {
-
+  aspectRatio: 1.1, 
   // maintainAspectRatio: false ,
   responsive: true,
   plugins: {
@@ -57,8 +57,9 @@ export const data = {
       data: obj.map((e, index) => e.value),
       borderColor: 'rgb(151,226,231)',
       backgroundColor: 'rgb(227,242,243)',
-      maintainAspectRatio: false ,
-      height:1000,
+      // maintainAspectRatio: true ,
+      // height:1000,
+   
       
     },
   ],
