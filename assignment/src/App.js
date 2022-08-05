@@ -1,6 +1,7 @@
 
 import { AreaChart1 } from "./components/Charts/AreaChart1";
-import { FirstHChart } from "./components/Charts/FirstHChart";
+import { AreaChart2 } from "./components/Charts/AreaChart2";
+
 import MainPage from "./components/MainPage";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div >
     <MainPage/>
      <AreaChart1/>
+     <AreaChart2/>
     </div>
   );
 }
