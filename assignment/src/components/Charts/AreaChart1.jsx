@@ -25,6 +25,8 @@ ChartJS.register(
 )
 
 export const options = {
+
+  // maintainAspectRatio: false ,
   responsive: true,
   plugins: {
     legend: {
@@ -53,12 +55,15 @@ export const data = {
       fill: true,
       label: 'Dataset 2',
       data: obj.map((e, index) => e.value),
-      borderColor: 'rgb(53, 162, 235)',
+      borderColor: 'rgb(151,226,231)',
       backgroundColor: 'rgb(227,242,243)',
+      maintainAspectRatio: false ,
+      height:1000,
+      
     },
   ],
 }
 
 export function AreaChart1() {
-  return <Line options={options} data={data} />
+  return <Line   options={options} data={data} />
 }

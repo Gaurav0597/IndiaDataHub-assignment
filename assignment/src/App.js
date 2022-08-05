@@ -10,8 +10,8 @@ function App() {
   return (
     <div >
     <MainPage/>
-     <AreaChart1/>
-     <AreaChart2/>
+     {/* <AreaChart1/> */}
+     {/* <AreaChart2/> */}
     </div>
   );
 }
