@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import MainPage from "./components/MainPage";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Paw } from "./components/Paw";
+import "./App.css"
 
 function App() {
 

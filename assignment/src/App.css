@@ -1,0 +1,9 @@
+.dropdown:hover .dropdown-menu {
+    margin-top: 36px;
+    margin-left:-40px;
+    height:auto;
+    display: block;
+    background-color: white;
+    border:1px solid rgb(214, 199, 199);
+    padding:2px; 
+  }
