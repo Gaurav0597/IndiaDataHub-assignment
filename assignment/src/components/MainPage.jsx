@@ -30,28 +30,28 @@ const MainPage = () => {
           <div className="w-1/4">
             <img
               className="h-full w-4/5 m-auto"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzLIWPiX3M5CbevA7dZIKPqUmvEuWB2QD7w&usqp=CAU"
+              src="dog1.png"
               alt=""
             />
           </div>
           <div className="w-1/4">
             <img
               className="h-full w-4/5 m-auto"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZd1R77uY00_XZu5pLgEUfjljwPbicNGKMA&usqp=CAU"
+              src="dog2.png"
               alt=""
             />
           </div>
           <div className="w-1/4">
             <img
               className="h-full w-4/5 m-auto"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJIwC5E9C0mxEnL2xGKjCuN5tdzfZDg_U4w&usqp=CAU"
+              src="dog3.png"
               alt=""
             />
           </div>
           <div className="w-1/4">
             <img
-              className="h-full w-4/5 m-auto"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_hIvSozrGxPparsVa6Pk0x7H07P5TB4AgPw&usqp=CAU"
+              className="h-30 mt-4 w-4/5 m-auto"
+              src="dog4.png"
               alt=""
             />
           </div>
