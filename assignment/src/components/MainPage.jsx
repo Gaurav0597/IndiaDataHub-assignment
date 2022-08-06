@@ -4,10 +4,11 @@ import { AreaChart2 } from './Charts/AreaChart2'
 import { FirstHChart } from './Charts/FirstHChart'
 import { SecondHChart } from './Charts/SecondHChart'
 import { StackChart } from './Charts/StackChart'
+import { Paw } from './Paw'
 
 const MainPage = () => {
   return (
-    <div className="w-11/12 m-auto bg-slate-50" style={{marginTop:"-4px"}} >
+    <div className="w-11/12 m-auto bg-slate-50 relative overflow-hidden" style={{marginTop:"-4px"}} >
       <div className="w-full flex p-10">
         <div className="w-2/5">
           <div className="text-5xl font-medium mb-2">Last Hope K9</div>
@@ -56,7 +57,7 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-full  ml-8">
+      <div className="flex w-full  ml-8  mt-10">
         <div className="w-3/5   border-r-2 border-zinc-300 ">
           <div className="text-4xl font-medium text-slate-600 text-center mb-2">
             Lives Saved
@@ -66,8 +67,8 @@ const MainPage = () => {
             <AreaChart1 />
           </div>
         </div>
-        <div className="w-full">
-          <div className="flex w-full">
+        <div className="w-full ">
+          <div className="flex w-full ">
             <div className="w-1/2">
               <div className="text-3xl font-medium text-slate-600 text-center mb-2">
                 Avg Time To Adopt
@@ -85,7 +86,10 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="w-1/2 ml-6">
+           
+            <Paw/>
+            <div className="w-1/2 ml-6 ">
+           
               <div className="text-3xl font-medium text-slate-600 text-center mb-2">
                 Characteristics
               </div>
@@ -96,6 +100,7 @@ const MainPage = () => {
                 <StackChart />
               </div>
             </div>
+
           </div>
           <div className="flex">
             <div className="w-1/2 mt-10">

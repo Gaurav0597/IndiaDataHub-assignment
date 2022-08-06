@@ -6,18 +6,21 @@ import { AreaChart2 } from "./components/Charts/AreaChart2";
 
 import MainPage from "./components/MainPage";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Paw } from "./components/Paw";
 
 function App() {
 
 
   return (
     <div >
+      {/* <Paw/> */}
       <Navbar/>
       <BelowNav/>
     <MainPage/>
     <BelowMain/>
      {/* <AreaChart1/> */}
      {/* <AreaChart2/> */}
+     
     </div>
   );
 }

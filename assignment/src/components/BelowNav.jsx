@@ -75,7 +75,9 @@ export const BelowNav = () => {
             />
           </svg>
         </div>
-        <div className="ml-4"></div>
+        <div className="ml-4">
+          <img src="prize.jpeg" alt="" className="h-6 w-6" />
+        </div>
       </div>
     </div>
   )
