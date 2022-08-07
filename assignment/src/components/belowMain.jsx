@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BelowMain = () => {
   return (
-    <div className="flex justify-between w-11/12 m-auto p-3">
+    <div className="flex justify-between  m-auto p-3">
       <div className="flex w-3/5 h-6   ">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png"
@@ -95,6 +95,9 @@ export const BelowMain = () => {
               d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"
             />
           </svg>
+        </div>
+        <div>
+          <img className="h-5 w-5 ml-2" src="video-full-screen.svg" alt="" />
         </div>
       </div>
     </div>

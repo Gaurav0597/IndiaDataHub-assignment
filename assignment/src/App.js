@@ -9,19 +9,17 @@ import MainPage from "./components/MainPage";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Paw } from "./components/Paw";
 import "./App.css"
+import { Details } from "./components/Details";
 
 function App() {
 
 
   return (
     <div >
-      {/* <Paw/> */}
-      <Navbar/>
-      <BelowNav/>
+    <Navbar/>
+    <BelowNav/>
     <MainPage/>
-    <BelowMain/>
-     {/* <AreaChart1/> */}
-     {/* <AreaChart2/> */}
+    <Details/>
      <Footer/>
     </div>
   );

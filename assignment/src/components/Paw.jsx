@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Paw = () => {
   return (
-    <div  style={{transform: 'rotate(300deg)'}} className="absolute right-12 top-32  ">
+    <div  style={{transform: 'rotate(300deg)'}} className="absolute right-12 top-28  ">
         <div>
         <img src="redpaw.svg" className="h-8 w-8 ml-5" alt="" />
         </div>

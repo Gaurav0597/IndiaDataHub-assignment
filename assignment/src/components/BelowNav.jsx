@@ -13,7 +13,7 @@ export const BelowNav = () => {
         </div>
       </div>
       <div className="flex justify-end ">
-        <div className="ml-6 dropdown inline-block relative">
+        <div className="ml-6 dropdown inline-block relative hover:bg-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 text-gray-400 w-6"
@@ -32,7 +32,7 @@ export const BelowNav = () => {
             <p>Disabled By Author</p>
           </div>
         </div>
-        <div className="ml-6 dropdown inline-block relative">
+        <div className="ml-6 dropdown inline-block relative hover:bg-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7b text-zinc-600 w-6 mt-0.5"
@@ -51,7 +51,7 @@ export const BelowNav = () => {
             <p>Add Favorite</p>
           </div>
         </div>
-        <div className="ml-6 dropdown inline-block relative">
+        <div className="ml-6 dropdown inline-block relative hover:bg-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7  text-zinc-400 w-6 "
@@ -70,7 +70,7 @@ export const BelowNav = () => {
             <p>Share</p>
           </div>
         </div>
-        <div className="ml-6 dropdown inline-block relative">
+        <div className="ml-6 dropdown inline-block relative hover:bg-gray-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 text-zinc-400"
@@ -89,7 +89,7 @@ export const BelowNav = () => {
             <p>Download</p>
           </div>
         </div>
-        <div className="ml-6 dropdown inline-block relative">
+        <div className="ml-6 dropdown inline-block relative hover:bg-gray-200">
           <img src="prize.jpeg" alt="" className="h-6 w-6" />
           <div className="dropdown-menu  absolute top-0 z-10 hidden w-32 h-10 text-sm text-slate-900 text-center">
           <p>Nominate for Viz <br/> of the day</p>

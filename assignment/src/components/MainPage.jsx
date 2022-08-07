@@ -1,4 +1,5 @@
 import React from 'react'
+import { BelowMain } from './belowMain'
 import { AreaChart1 } from './Charts/AreaChart1'
 import { AreaChart2 } from './Charts/AreaChart2'
 import { FirstHChart } from './Charts/FirstHChart'
@@ -50,7 +51,7 @@ const MainPage = () => {
           </div>
           <div className="w-1/4">
             <img
-              className="h-30 mt-4 w-4/5 m-auto"
+              className="h-28 mt-2 w-4/5 m-auto"
               src="dog4.png"
               alt=""
             />
@@ -122,7 +123,7 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-
+      <BelowMain/>
      
     </div>
   )
